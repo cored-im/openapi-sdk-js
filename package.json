@@ -1,6 +1,6 @@
 {
   "name": "@cored-im/sdk",
-  "version": "0.28.106",
+  "version": "0.28.107",
   "description": "Official Cored OpenAPI SDK for Node.js and Browser",
   "author": "Cored Limited",
   "type": "module",
