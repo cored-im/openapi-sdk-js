@@ -27,9 +27,9 @@ npm install ws
 ## 快速开始
 
 ```typescript
-import { Client } from '@cored-im/openapi-sdk';
+import { CoredClient } from '@cored-im/openapi-sdk';
 
-const client = await Client.create(
+const client = await CoredClient.create(
   'https://your-backend-url.com',
   'your-app-id',
   'your-app-secret',
@@ -52,12 +52,12 @@ await client.close();
 
 ## 客户端配置
 
-`Client.create()` 支持通过可选参数配置客户端行为：
+`CoredClient.create()` 支持通过可选参数配置客户端行为：
 
 ```typescript
-import { Client, LoggerLevel } from '@cored-im/openapi-sdk';
+import { CoredClient, LoggerLevel } from '@cored-im/openapi-sdk';
 
-const client = await Client.create(
+const client = await CoredClient.create(
   'https://your-backend-url.com',
   'your-app-id',
   'your-app-secret',

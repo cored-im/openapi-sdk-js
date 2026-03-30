@@ -1,8 +1,8 @@
 // Copyright (c) 2026 Cored Limited
 // SPDX-License-Identifier: Apache-2.0
 
-export { Client } from '@/client';
-export type { ClientOptions } from '@/client';
+export { CoredClient } from '@/client';
+export type { CoredClientOptions } from '@/client';
 export { LoggerLevel } from '@/core/types';
 export type {
   Int64,

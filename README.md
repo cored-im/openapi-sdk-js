@@ -27,9 +27,9 @@ npm install ws
 ## Quick Start
 
 ```typescript
-import { Client } from '@cored-im/openapi-sdk';
+import { CoredClient } from '@cored-im/openapi-sdk';
 
-const client = await Client.create(
+const client = await CoredClient.create(
   'https://your-backend-url.com',
   'your-app-id',
   'your-app-secret',
@@ -53,12 +53,12 @@ await client.close();
 
 ## Configuration
 
-`Client.create()` accepts an optional options object to configure client behavior:
+`CoredClient.create()` accepts an optional options object to configure client behavior:
 
 ```typescript
-import { Client, LoggerLevel } from '@cored-im/openapi-sdk';
+import { CoredClient, LoggerLevel } from '@cored-im/openapi-sdk';
 
-const client = await Client.create(
+const client = await CoredClient.create(
   'https://your-backend-url.com',
   'your-app-id',
   'your-app-secret',
