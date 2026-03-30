@@ -1,6 +1,9 @@
 # Cored IM OpenAPI SDK - JavaScript
 
 [![npm version](https://img.shields.io/npm/v/@cored-im/openapi-sdk.svg)](https://www.npmjs.com/package/@cored-im/openapi-sdk)
+[![CI](https://github.com/cored-im/openapi-sdk-js/actions/workflows/ci.yaml/badge.svg)](https://github.com/cored-im/openapi-sdk-js/actions/workflows/ci.yaml)
+[![npm downloads](https://img.shields.io/npm/dm/@cored-im/openapi-sdk.svg)](https://www.npmjs.com/package/@cored-im/openapi-sdk)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0%2B-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/github/license/cored-im/openapi-sdk-js)](LICENSE)
 
 [English](README.md) | 中文
