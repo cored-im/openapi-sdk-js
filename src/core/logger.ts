@@ -13,25 +13,25 @@ export class DefaultLogger implements Logger {
 
   debug(msg: string, ...args: unknown[]): void {
     if (this.level <= LoggerLevel.Debug) {
-      console.debug(`[cosdk] DEBUG ${msg}`, ...args);
+      console.debug(`[Cored] DEBUG ${msg}`, ...args);
     }
   }
 
   info(msg: string, ...args: unknown[]): void {
     if (this.level <= LoggerLevel.Info) {
-      console.info(`[cosdk] INFO ${msg}`, ...args);
+      console.info(`[Cored] INFO ${msg}`, ...args);
     }
   }
 
   warn(msg: string, ...args: unknown[]): void {
     if (this.level <= LoggerLevel.Warn) {
-      console.warn(`[cosdk] WARN ${msg}`, ...args);
+      console.warn(`[Cored] WARN ${msg}`, ...args);
     }
   }
 
   error(msg: string, ...args: unknown[]): void {
     if (this.level <= LoggerLevel.Error) {
-      console.error(`[cosdk] ERROR ${msg}`, ...args);
+      console.error(`[Cored] ERROR ${msg}`, ...args);
     }
   }
 }

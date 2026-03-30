@@ -1,8 +1,8 @@
 # Cored IM OpenAPI SDK - JavaScript
 
-[![npm version](https://img.shields.io/npm/v/@cored-im/openapi-sdk.svg)](https://www.npmjs.com/package/@cored-im/openapi-sdk)
+[![npm version](https://img.shields.io/npm/v/@cored-im/sdk.svg)](https://www.npmjs.com/package/@cored-im/sdk)
 [![CI](https://github.com/cored-im/openapi-sdk-js/actions/workflows/ci.yaml/badge.svg)](https://github.com/cored-im/openapi-sdk-js/actions/workflows/ci.yaml)
-[![npm downloads](https://img.shields.io/npm/dm/@cored-im/openapi-sdk.svg)](https://www.npmjs.com/package/@cored-im/openapi-sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@cored-im/sdk.svg)](https://www.npmjs.com/package/@cored-im/sdk)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0%2B-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/github/license/cored-im/openapi-sdk-js)](LICENSE)
 
@@ -15,7 +15,7 @@ Cored 是一个安全、可自托管的团队协作平台，集成了即时通�
 ## 安装
 
 ```bash
-npm install @cored-im/openapi-sdk
+npm install @cored-im/sdk
 ```
 
 WebSocket 功能在浏览器和 Node.js 22+ 中原生支持。Node.js < 22 需安装 [`ws`](https://www.npmjs.com/package/ws)：
@@ -27,7 +27,7 @@ npm install ws
 ## 快速开始
 
 ```typescript
-import { CoredClient, MessageType_TEXT } from '@cored-im/openapi-sdk';
+import { CoredClient, MessageType_TEXT } from '@cored-im/sdk';
 
 const client = await CoredClient.create(
   'https://your-backend-url.com',
@@ -55,7 +55,7 @@ await client.close();
 `CoredClient.create()` 支持通过可选参数配置客户端行为：
 
 ```typescript
-import { CoredClient, LoggerLevel } from '@cored-im/openapi-sdk';
+import { CoredClient, LoggerLevel } from '@cored-im/sdk';
 
 const client = await CoredClient.create(
   'https://your-backend-url.com',

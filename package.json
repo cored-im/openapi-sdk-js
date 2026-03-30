@@ -1,7 +1,8 @@
 {
-  "name": "@cored-im/openapi-sdk",
+  "name": "@cored-im/sdk",
   "version": "0.28.105",
-  "description": "@cored-im/openapi-sdk - OpenAPI SDK for JavaScript/TypeScript",
+  "description": "Official Cored OpenAPI SDK for Node.js and Browser",
+  "author": "Cored Limited",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -28,15 +29,15 @@
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
-  "keywords": [
-    "openapi",
-    "sdk",
-    "im"
-  ],
+  "keywords": ["cored", "sdk", "im", "rtc", "drive", "self-hosted"],
   "license": "Apache-2.0",
+  "homepage": "https://coredim.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cored-im/openapi-sdk-js"
+    "url": "git+https://github.com/cored-im/openapi-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cored-im/openapi-sdk-js/issues"
   },
   "peerDependencies": {
     "ws": "^8.0.0"

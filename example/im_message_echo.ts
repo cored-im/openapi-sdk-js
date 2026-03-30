@@ -1,7 +1,7 @@
 // Copyright (c) 2026 Cored Limited
 // SPDX-License-Identifier: Apache-2.0
 
-import { CoredClient, MessageType_CARD } from '@cored-im/openapi-sdk';
+import { CoredClient, MessageType_CARD } from '@cored-im/sdk';
 
 async function main() {
   const client = await CoredClient.create(

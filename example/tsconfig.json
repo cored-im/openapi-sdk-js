@@ -9,8 +9,8 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["../src/*"],
-      "@cored-im/openapi-sdk": ["../src/index.ts"],
-      "@cored-im/openapi-sdk/*": ["../src/*"]
+      "@cored-im/sdk": ["../src/index.ts"],
+      "@cored-im/sdk/*": ["../src/*"]
     }
   },
   "include": ["./**/*"]
