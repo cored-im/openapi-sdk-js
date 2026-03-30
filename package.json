@@ -1,6 +1,6 @@
 {
   "name": "@cored-im/openapi-sdk",
-  "version": "0.28.104",
+  "version": "0.28.105",
   "description": "@cored-im/openapi-sdk - OpenAPI SDK for JavaScript/TypeScript",
   "type": "module",
   "main": "./dist/index.cjs",
