@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@cored-im/openapi-sdk.svg)](https://www.npmjs.com/package/@cored-im/openapi-sdk)
 [![License](https://img.shields.io/github/license/cored-im/openapi-sdk-js)](LICENSE)
 
-[English](README_en.md) | 中文
+[English](README.md) | 中文
 
 Cored 是一个安全、可自托管的团队协作平台，集成了即时通讯、组织架构、音视频会议和文件存储等功能。
 
